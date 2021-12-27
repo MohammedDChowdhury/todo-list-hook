@@ -33,6 +33,7 @@ export default () => {
           </div>
         ))}
       </div>
+      <button onClick={() => setTodos([])}>reset</button>
     </div>
   );
 };
